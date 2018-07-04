@@ -1,2 +1,2 @@
-# hugo-chaoscosmos
-Source code for generating static pages by Hugo.
+# chaoscosmos.github.io
+Chao's homepage
