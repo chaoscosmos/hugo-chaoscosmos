@@ -7,7 +7,9 @@ PUBLISH_DIR="../chaoscosmos.github.io/"
 
 function git_push() {
   # TODO need to validate before add and commit
-  # add all files in stage
+
+  # add all files in stage 
+  # TODO !!!unsafe!!! - when in production, only add content/post/*.md
   git add --all
   # Commit changes.
   msg="rebuilding site `date`"
