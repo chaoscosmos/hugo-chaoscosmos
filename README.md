@@ -4,9 +4,13 @@
 [website]: <https://github.com/chaoscosmos/chaoscosmos.github.io> "website repo"
 [weburl]: <https://chaoscosmos.github.io> "Website URL"
 [ananketheme]: <https://github.com/budparr/gohugo-theme-ananke> "Ananke's theme"
+[githubpages]: <https://pages.github.com/> "GitHub Pages"
+[jekyll]: <https://help.github.com/articles/using-jekyll-with-pages> "Jekyll Help"
 
 
 # Introduction
+
+[GitHub pages][githubpages] is convient and easy enough for hosting your blogging website by [Jekyll][jekyll]. But if you like to generate static website using alternatives - [Hugo][hugo] for example, here is a brief.
 
 This repository host source code for generating my static HTML pages by [Hugo][hugo].
 
@@ -79,7 +83,7 @@ Till now you may have a try to create your first post.
 $ hugo new post/hello.md
 ```
 
-You can now edit your first post.
+Hugo will generate an initial markdown file. Take my example, its path will be `content/post/hello.md`. You can now edit your first post.
 
 ```
 $ vim content/post/hello.md
@@ -87,10 +91,16 @@ $ vim content/post/hello.md
 
 To make your post ready to publish, update the attribute `draft` to `false`, e.g. `draft: false`.
 
+#### Deploy your Website/posts
 
-### How It Works
+##### Test your website locally:
 
 `$ hugo server`
 
 Now enter [`localhost:1313`](http://localhost:1313/) in the address bar of your browser.
+
+##### Deploy your website to [website repository][website]
+
+Script `deploy.sh` explains how it works.
+
 
