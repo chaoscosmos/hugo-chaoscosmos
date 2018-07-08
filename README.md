@@ -1,7 +1,8 @@
-# About This Repository
-Source code for generating static HTML pages by [Hugo](http://gohugo.io/).
+# Introduction
 
-## My Website Repository
+This repository host source code for generating my static HTML pages by [Hugo](http://gohugo.io/).
+
+## Website Repository
 Held in repository [chaoscosmos.github.io](https://github.com/chaoscosmos/chaoscosmos.github.io).
 
 ## How It Works
