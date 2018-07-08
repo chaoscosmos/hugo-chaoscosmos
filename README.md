@@ -1,15 +1,29 @@
+
+
+[hugo]: <http://gohugo.io/> "Hugo official site"
+[website]: <https://github.com/chaoscosmos/chaoscosmos.github.io> "website repo"
+[weburl]: <https://chaoscosmos.github.io> "Website URL"
+
 # Introduction
-  ------------
 
-This repository host source code for generating my static HTML pages by [Hugo](http://gohugo.io/).
+This repository host source code for generating my static HTML pages by [Hugo][hugo].
 
-## Website Repository
-Stored in repository [chaoscosmos.github.io](https://github.com/chaoscosmos/chaoscosmos.github.io).
+### Website Repository
+Stored in static [website repository][website].
 
-## Website Location
-[chaoscosmos.github.io](https://chaoscosmos.github.io)
+### Website Location
+[chaoscosmos.github.io][weburl]
 
-## How It Works
+# Way of Working
+
+### Overview
+* Install Hugo generator
+* Clone hugo-chaoscosmos
+* Clone chaoscosmos.github.io
+* Edit posts markdown
+* Deploy website/posts
+
+### How It Works
 
 `$ hugo server`
 
