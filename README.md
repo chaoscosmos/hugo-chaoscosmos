@@ -23,12 +23,12 @@ Stored in static [website repository][website].
 # Way of Working
 
 ### Overview
-* Install Hugo generator
-* Clone source repo
-* Clone website repo
-* Choose a theme (optional)
-* Edit posts markdown
-* Deploy website/posts
+* [Install Hugo](#install-hugo)
+* [Clone Source Repo](#clone-source-repo)
+* [Clone Website Repo](#clone-website-repo)
+* [Using Theme](#using-theme)
+* [Edit Posts](#edit-posts)
+* [Deploy Website](#deploy-website)
 
 #### Install Hugo
 
@@ -52,7 +52,7 @@ For example:
 $ git clone git@github.com:chaoscosmos/chaoscosmos.github.io.git
 ```
 
-#### Using Theme (optional)
+#### Using Theme
 
 Now with all staff prepared, you are ready to create and edit your posts. But one more thing you may prefer to do - a wonderful theme - to make your website beatiful and your work easer.
 
@@ -91,7 +91,7 @@ $ vim content/post/hello.md
 
 To make your post ready to publish, update the attribute `draft` to `false`, e.g. `draft: false`.
 
-#### Deploy your Website/posts
+#### Deploy Website
 
 ##### Test your website locally:
 
